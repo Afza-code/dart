@@ -1,0 +1,11 @@
+
+=== AGEN EKSPEDISI CEPATKIRIM ===
+1. Terima Paket Baru
+2. Lihat Semua Paket
+3. Cek Total Pendapatan Agen
+4. Keluar
+Pilih menu (1-4): 2
+
+--- DAFTAR PAKET MASUK ---
+Pengirim: Budi Santoso, Tujuan: Jakarta
+Pengirim: Siti Rahayu, Tujuan: Bandung

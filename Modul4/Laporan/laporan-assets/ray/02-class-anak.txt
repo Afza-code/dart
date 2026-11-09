@@ -1,0 +1,15 @@
+class PaketReguler extends Paket {
+  PaketReguler(super.namaPengirim, super.tujuan, super.beratKg);
+  @override
+  hitungOngkir() {
+    return beratKg * 10000;
+  }
+}
+
+class PaketKilat extends Paket {
+  PaketKilat(super.namaPengirim, super.tujuan, super.beratKg);
+  @override
+  hitungOngkir() {
+    return (beratKg * 15000) + 5000;
+  }
+}

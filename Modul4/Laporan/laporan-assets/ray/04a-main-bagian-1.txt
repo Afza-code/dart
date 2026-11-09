@@ -1,0 +1,33 @@
+void main() {
+  var agenPusat = AgenEkspedisi();
+
+  while (true) {
+    print("\n=== AGEN EKSPEDISI CEPATKIRIM ===");
+    print("1. Terima Paket Baru");
+    print("2. Lihat Semua Paket");
+    print("3. Cek Total Pendapatan Agen");
+    print("4. Keluar");
+    stdout.write("Pilih menu (1-4): ");
+
+    String pilihan = stdin.readLineSync() ?? "";
+
+    if (pilihan == "1") {
+      stdout.write("Nama Pengirim: ");
+      String nama = stdin.readLineSync() ?? "";
+      stdout.write("Tujuan: ");
+      String tujuan = stdin.readLineSync() ?? "";
+      stdout.write("Berat (Kg): ");
+      double berat = double.parse(stdin.readLineSync() ?? "0");
+      stdout.write("Jenis Layanan (1: Reguler, 2: Kilat): ");
+      String jenis = stdin.readLineSync() ?? "";
+
+      if (jenis == "1") {
+        var p = PaketReguler(nama, tujuan, berat);
+        agenPusat.terimaPaket(p);
+      } else if (jenis == "2") {
+        var p = PaketKilat(nama, tujuan, berat);
+        agenPusat.terimaPaket(p);
+      } else {
+        print("Pilihan layanan tidak valid!");
+      }
+    }

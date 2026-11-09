@@ -1,0 +1,12 @@
+
+=== AGEN EKSPEDISI CEPATKIRIM ===
+1. Terima Paket Baru
+2. Lihat Semua Paket
+3. Cek Total Pendapatan Agen
+4. Keluar
+Pilih menu (1-4): 1
+Nama Pengirim: Siti Rahayu
+Tujuan: Bandung
+Berat (Kg): 2
+Jenis Layanan (1: Reguler, 2: Kilat): 2
+Paket tujuan Bandung berhasil diterima agen

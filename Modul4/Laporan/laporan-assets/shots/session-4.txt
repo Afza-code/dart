@@ -1,0 +1,17 @@
+
+=== AGEN EKSPEDISI CEPATKIRIM ===
+1. Terima Paket Baru
+2. Lihat Semua Paket
+3. Cek Total Pendapatan Agen
+4. Keluar
+Pilih menu (1-4): 3
+
+Total Pendapatan: Rp 85000.0
+
+=== AGEN EKSPEDISI CEPATKIRIM ===
+1. Terima Paket Baru
+2. Lihat Semua Paket
+3. Cek Total Pendapatan Agen
+4. Keluar
+Pilih menu (1-4): 4
+Menutup sistem... Terima kasih!

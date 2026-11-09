@@ -1,0 +1,14 @@
+class AgenEkspedisi {
+  List<Paket> daftarPaket = [];
+
+  double _totalPendapatan = 0;
+
+  double get cekPendapatan => _totalPendapatan;
+
+  void terimaPaket(Paket p) {
+    daftarPaket.add(p);
+    _totalPendapatan += p.hitungOngkir();
+
+    print("Paket tujuan ${p.tujuan} berhasil diterima agen");
+  }
+}

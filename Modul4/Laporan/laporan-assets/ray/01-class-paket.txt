@@ -1,0 +1,9 @@
+class Paket {
+  String namaPengirim;
+  String tujuan;
+  double beratKg;
+
+  Paket(this.namaPengirim, this.tujuan, this.beratKg);
+
+  hitungOngkir() => 0;
+}

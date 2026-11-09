@@ -1,0 +1,15 @@
+    else if (pilihan == "2") {
+      print("\n--- DAFTAR PAKET MASUK ---");
+      for (var p in agenPusat.daftarPaket) {
+        print("Pengirim: ${p.namaPengirim}, Tujuan: ${p.tujuan}");
+      }
+    } else if (pilihan == "3") {
+      print("\nTotal Pendapatan: Rp ${agenPusat.cekPendapatan}");
+    } else if (pilihan == "4") {
+      print("Menutup sistem... Terima kasih!");
+      break;
+    } else {
+      print("Menu tidak tersedia!");
+    }
+  }
+}
